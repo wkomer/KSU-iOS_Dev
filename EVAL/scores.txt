@@ -1,0 +1,75 @@
+################################################################################
+## Komer,         William               wkomer
+## 
+## Exercise 1:  100
+## Exercise 2:  100
+## 
+## KaleidoView:  98
+## KaleidoTab:   88
+## KaleidoNav:  100
+## 
+## Project:      83
+## 
+##==============================================================================
+Project:
+    Project proposal: Repeewsenim
+    With:             Ryder, Joshua - jryder6
+    Email:            12/01
+
+    One screen only, game play with move counter and timer
+    Subclasses UIButton
+
+    Board, Square should inherit from NSObject
+
+##==============================================================================
+Exercise 1 Comments:
+    Good.
+
+##==============================================================================
+Exercise 2 Comments:
+    Good.
+
+##==============================================================================
+KaleidoView Comments:
+    Version file: No version file
+ 
+    -2  No Xcode/swift version file
+
+    Good.
+    Runs correctly.
+
+##==============================================================================
+KaleidoTab Comments:
+    Version file: wkomer, KT-2
+    Grace period request: grace-1-KaledioTab.txt
+
+    Runs partly correctly.
+    
+    The size slider works.
+    The speed stepper works.
+
+    -2  The speed stepper label is not updated properly.
+    -2  No slider value label
+    -2  Toggle animation switch doesn't do anything
+    -2  Save changes button doesn't do anything
+    -2  Cancel changes button doesn't do anything
+
+    -2  The specified symmetry is shifted a bit.
+
+##==============================================================================
+KaleidoNav Comments:
+    Version file: 
+
+    grace-2-KaliedoNav.txt
+    grace-3-KaleidoNav.txt
+
+    No program turned in.
+
+    Graded, works correctly.
+
+    The save should happen automatically when going back
+       to the Kaleido screen, the user shouldn't have to
+       click a button.
+
+    
+

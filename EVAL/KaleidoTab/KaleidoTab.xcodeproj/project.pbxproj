@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C0529491DDA8B5200879051 /* kaleidoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0529481DDA8B5200879051 /* kaleidoController.swift */; };
+		9C05294B1DDAAD4500879051 /* configViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C05294A1DDAAD4500879051 /* configViewController.swift */; };
+		9C05294D1DDAAD5300879051 /* configView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C05294C1DDAAD5300879051 /* configView.swift */; };
+		9C197B741DD532190091B3C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C197B731DD532190091B3C6 /* AppDelegate.swift */; };
+		9C197B791DD532190091B3C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C197B771DD532190091B3C6 /* Main.storyboard */; };
+		9C197B7B1DD532190091B3C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C197B7A1DD532190091B3C6 /* Assets.xcassets */; };
+		9C197B7E1DD532190091B3C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C197B7C1DD532190091B3C6 /* LaunchScreen.storyboard */; };
+		9C197B891DD532190091B3C6 /* KaleidoTabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C197B881DD532190091B3C6 /* KaleidoTabTests.swift */; };
+		9C197B941DD532190091B3C6 /* KaleidoTabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C197B931DD532190091B3C6 /* KaleidoTabUITests.swift */; };
+		9C197BA21DD5327F0091B3C6 /* kaleidoDrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C197BA11DD5327F0091B3C6 /* kaleidoDrawView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C197B851DD532190091B3C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C197B681DD532190091B3C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C197B6F1DD532190091B3C6;
+			remoteInfo = KaleidoTab;
+		};
+		9C197B901DD532190091B3C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C197B681DD532190091B3C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C197B6F1DD532190091B3C6;
+			remoteInfo = KaleidoTab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C0529481DDA8B5200879051 /* kaleidoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kaleidoController.swift; sourceTree = "<group>"; };
+		9C05294A1DDAAD4500879051 /* configViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = configViewController.swift; sourceTree = "<group>"; };
+		9C05294C1DDAAD5300879051 /* configView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = configView.swift; sourceTree = "<group>"; };
+		9C197B701DD532190091B3C6 /* KaleidoTab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KaleidoTab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C197B731DD532190091B3C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C197B781DD532190091B3C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C197B7A1DD532190091B3C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C197B7D1DD532190091B3C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C197B7F1DD532190091B3C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C197B841DD532190091B3C6 /* KaleidoTabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaleidoTabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C197B881DD532190091B3C6 /* KaleidoTabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaleidoTabTests.swift; sourceTree = "<group>"; };
+		9C197B8A1DD532190091B3C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C197B8F1DD532190091B3C6 /* KaleidoTabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaleidoTabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C197B931DD532190091B3C6 /* KaleidoTabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaleidoTabUITests.swift; sourceTree = "<group>"; };
+		9C197B951DD532190091B3C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C197BA11DD5327F0091B3C6 /* kaleidoDrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kaleidoDrawView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C197B6D1DD532190091B3C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C197B811DD532190091B3C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C197B8C1DD532190091B3C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C197B671DD532190091B3C6 = {
+			isa = PBXGroup;
+			children = (
+				9C197B721DD532190091B3C6 /* KaleidoTab */,
+				9C197B871DD532190091B3C6 /* KaleidoTabTests */,
+				9C197B921DD532190091B3C6 /* KaleidoTabUITests */,
+				9C197B711DD532190091B3C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C197B711DD532190091B3C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C197B701DD532190091B3C6 /* KaleidoTab.app */,
+				9C197B841DD532190091B3C6 /* KaleidoTabTests.xctest */,
+				9C197B8F1DD532190091B3C6 /* KaleidoTabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C197B721DD532190091B3C6 /* KaleidoTab */ = {
+			isa = PBXGroup;
+			children = (
+				9C197B731DD532190091B3C6 /* AppDelegate.swift */,
+				9C197B771DD532190091B3C6 /* Main.storyboard */,
+				9C197B7A1DD532190091B3C6 /* Assets.xcassets */,
+				9C197B7C1DD532190091B3C6 /* LaunchScreen.storyboard */,
+				9C197B7F1DD532190091B3C6 /* Info.plist */,
+				9C197BA11DD5327F0091B3C6 /* kaleidoDrawView.swift */,
+				9C0529481DDA8B5200879051 /* kaleidoController.swift */,
+				9C05294C1DDAAD5300879051 /* configView.swift */,
+				9C05294A1DDAAD4500879051 /* configViewController.swift */,
+			);
+			path = KaleidoTab;
+			sourceTree = "<group>";
+		};
+		9C197B871DD532190091B3C6 /* KaleidoTabTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C197B881DD532190091B3C6 /* KaleidoTabTests.swift */,
+				9C197B8A1DD532190091B3C6 /* Info.plist */,
+			);
+			path = KaleidoTabTests;
+			sourceTree = "<group>";
+		};
+		9C197B921DD532190091B3C6 /* KaleidoTabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C197B931DD532190091B3C6 /* KaleidoTabUITests.swift */,
+				9C197B951DD532190091B3C6 /* Info.plist */,
+			);
+			path = KaleidoTabUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C197B6F1DD532190091B3C6 /* KaleidoTab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C197B981DD532190091B3C6 /* Build configuration list for PBXNativeTarget "KaleidoTab" */;
+			buildPhases = (
+				9C197B6C1DD532190091B3C6 /* Sources */,
+				9C197B6D1DD532190091B3C6 /* Frameworks */,
+				9C197B6E1DD532190091B3C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KaleidoTab;
+			productName = KaleidoTab;
+			productReference = 9C197B701DD532190091B3C6 /* KaleidoTab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C197B831DD532190091B3C6 /* KaleidoTabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C197B9B1DD532190091B3C6 /* Build configuration list for PBXNativeTarget "KaleidoTabTests" */;
+			buildPhases = (
+				9C197B801DD532190091B3C6 /* Sources */,
+				9C197B811DD532190091B3C6 /* Frameworks */,
+				9C197B821DD532190091B3C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C197B861DD532190091B3C6 /* PBXTargetDependency */,
+			);
+			name = KaleidoTabTests;
+			productName = KaleidoTabTests;
+			productReference = 9C197B841DD532190091B3C6 /* KaleidoTabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C197B8E1DD532190091B3C6 /* KaleidoTabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C197B9E1DD532190091B3C6 /* Build configuration list for PBXNativeTarget "KaleidoTabUITests" */;
+			buildPhases = (
+				9C197B8B1DD532190091B3C6 /* Sources */,
+				9C197B8C1DD532190091B3C6 /* Frameworks */,
+				9C197B8D1DD532190091B3C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C197B911DD532190091B3C6 /* PBXTargetDependency */,
+			);
+			name = KaleidoTabUITests;
+			productName = KaleidoTabUITests;
+			productReference = 9C197B8F1DD532190091B3C6 /* KaleidoTabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C197B681DD532190091B3C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = wkomer;
+				TargetAttributes = {
+					9C197B6F1DD532190091B3C6 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					9C197B831DD532190091B3C6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = D4YUPNZZDA;
+						TestTargetID = 9C197B6F1DD532190091B3C6;
+					};
+					9C197B8E1DD532190091B3C6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = D4YUPNZZDA;
+						TestTargetID = 9C197B6F1DD532190091B3C6;
+					};
+				};
+			};
+			buildConfigurationList = 9C197B6B1DD532190091B3C6 /* Build configuration list for PBXProject "KaleidoTab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C197B671DD532190091B3C6;
+			productRefGroup = 9C197B711DD532190091B3C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C197B6F1DD532190091B3C6 /* KaleidoTab */,
+				9C197B831DD532190091B3C6 /* KaleidoTabTests */,
+				9C197B8E1DD532190091B3C6 /* KaleidoTabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C197B6E1DD532190091B3C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C197B7E1DD532190091B3C6 /* LaunchScreen.storyboard in Resources */,
+				9C197B7B1DD532190091B3C6 /* Assets.xcassets in Resources */,
+				9C197B791DD532190091B3C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C197B821DD532190091B3C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C197B8D1DD532190091B3C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C197B6C1DD532190091B3C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C197BA21DD5327F0091B3C6 /* kaleidoDrawView.swift in Sources */,
+				9C05294D1DDAAD5300879051 /* configView.swift in Sources */,
+				9C0529491DDA8B5200879051 /* kaleidoController.swift in Sources */,
+				9C05294B1DDAAD4500879051 /* configViewController.swift in Sources */,
+				9C197B741DD532190091B3C6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C197B801DD532190091B3C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C197B891DD532190091B3C6 /* KaleidoTabTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C197B8B1DD532190091B3C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C197B941DD532190091B3C6 /* KaleidoTabUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C197B861DD532190091B3C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C197B6F1DD532190091B3C6 /* KaleidoTab */;
+			targetProxy = 9C197B851DD532190091B3C6 /* PBXContainerItemProxy */;
+		};
+		9C197B911DD532190091B3C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C197B6F1DD532190091B3C6 /* KaleidoTab */;
+			targetProxy = 9C197B901DD532190091B3C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C197B771DD532190091B3C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C197B781DD532190091B3C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C197B7C1DD532190091B3C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C197B7D1DD532190091B3C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C197B961DD532190091B3C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C197B971DD532190091B3C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C197B991DD532190091B3C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = KaleidoTab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wkomer.KaleidoTab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9C197B9A1DD532190091B3C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = KaleidoTab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wkomer.KaleidoTab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9C197B9C1DD532190091B3C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KaleidoTabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wkomer.KaleidoTabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaleidoTab.app/KaleidoTab";
+			};
+			name = Debug;
+		};
+		9C197B9D1DD532190091B3C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KaleidoTabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wkomer.KaleidoTabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaleidoTab.app/KaleidoTab";
+			};
+			name = Release;
+		};
+		9C197B9F1DD532190091B3C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KaleidoTabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wkomer.KaleidoTabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KaleidoTab;
+			};
+			name = Debug;
+		};
+		9C197BA01DD532190091B3C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KaleidoTabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wkomer.KaleidoTabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KaleidoTab;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C197B6B1DD532190091B3C6 /* Build configuration list for PBXProject "KaleidoTab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C197B961DD532190091B3C6 /* Debug */,
+				9C197B971DD532190091B3C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C197B981DD532190091B3C6 /* Build configuration list for PBXNativeTarget "KaleidoTab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C197B991DD532190091B3C6 /* Debug */,
+				9C197B9A1DD532190091B3C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C197B9B1DD532190091B3C6 /* Build configuration list for PBXNativeTarget "KaleidoTabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C197B9C1DD532190091B3C6 /* Debug */,
+				9C197B9D1DD532190091B3C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C197B9E1DD532190091B3C6 /* Build configuration list for PBXNativeTarget "KaleidoTabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C197B9F1DD532190091B3C6 /* Debug */,
+				9C197BA01DD532190091B3C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C197B681DD532190091B3C6 /* Project object */;
+}

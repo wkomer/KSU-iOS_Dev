@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="awT-ja-hWn">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="gaP-4K-vOW">
+            <objects>
+                <navigationController id="awT-ja-hWn" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="bgY-DD-YdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="au9-kh-T0f" kind="relationship" relationship="rootViewController" id="44C-Yf-8yo"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pLM-jh-AZa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-912" y="426"/>
+        </scene>
+        <!--Config View Controller-->
+        <scene sceneID="zOo-YB-6yD">
+            <objects>
+                <viewController id="D0k-QK-LTZ" customClass="ConfigViewController" customModule="Kaleido_Nav" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rhx-8Q-uNG"/>
+                        <viewControllerLayoutGuide type="bottom" id="w2z-GX-r1G"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="grd-RQ-NXx" customClass="ConfigView" customModule="Kaleido_Nav" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="User Can Toggle Animation" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ifR-Ix-bJS">
+                                <rect key="frame" x="13" y="271" width="197" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Rectangle Size" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SY0-eb-q40">
+                                <rect key="frame" x="53" y="338" width="117" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Delay Time" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KOX-bi-jII">
+                                <rect key="frame" x="63" y="406" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RDh-n0-VPC">
+                                <rect key="frame" x="53" y="522" width="98" height="30"/>
+                                <state key="normal" title="Save Changes"/>
+                                <connections>
+                                    <action selector="saveChangeButton:" destination="D0k-QK-LTZ" eventType="touchUpInside" id="BRb-se-Yrt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KU1-Xa-kuP">
+                                <rect key="frame" x="267" y="522" width="112" height="30"/>
+                                <state key="normal" title="Cancel Changes"/>
+                                <connections>
+                                    <action selector="cancelChangeButton:" destination="D0k-QK-LTZ" eventType="touchUpInside" id="Sr6-a4-Ckb"/>
+                                </connections>
+                            </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LPS-uk-x9x">
+                                <rect key="frame" x="276" y="270" width="51" height="31"/>
+                            </switch>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="0sE-JP-tKe">
+                                <rect key="frame" x="241" y="338" width="118" height="31"/>
+                            </slider>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="ahK-Uh-t8v">
+                                <rect key="frame" x="218" y="407" width="94" height="29"/>
+                                <connections>
+                                    <action selector="delayStepper:" destination="D0k-QK-LTZ" eventType="valueChanged" id="39L-TU-uvc"/>
+                                </connections>
+                            </stepper>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0.1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AOr-Uz-GEv">
+                                <rect key="frame" x="320" y="411" width="27" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="s" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JGr-qz-HLY">
+                                <rect key="frame" x="348" y="411" width="9" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="knr-dE-2WQ"/>
+                    <connections>
+                        <outlet property="delayTime" destination="AOr-Uz-GEv" id="tfW-Vj-k3x"/>
+                        <outlet property="rectSizeSlider" destination="0sE-JP-tKe" id="kxH-qw-o39"/>
+                        <outlet property="stepper" destination="ahK-Uh-t8v" id="j3z-BM-pb9"/>
+                        <outlet property="toggleAnimSwitch" destination="LPS-uk-x9x" id="glp-0x-YAq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x53-gd-Kih" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="631" y="426"/>
+        </scene>
+        <!--Kaleido View Controller-->
+        <scene sceneID="Lgf-W6-IsV">
+            <objects>
+                <viewController id="au9-kh-T0f" customClass="KaleidoViewController" customModule="Kaleido_Nav" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VHi-CO-MJ2"/>
+                        <viewControllerLayoutGuide type="bottom" id="oNz-BA-Jb9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KUN-Lc-GcE" customClass="KaleidoView" customModule="Kaleido_Nav" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="VXT-ps-BKK" appends="YES" id="HGF-xE-FOh"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="A8y-aG-uDv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L4F-Oo-VMA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer numberOfTouchesRequired="2" id="VXT-ps-BKK">
+                    <connections>
+                        <segue destination="D0k-QK-LTZ" kind="push" id="dP6-YK-I0S"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-94" y="426"/>
+        </scene>
+    </scenes>
+</document>
